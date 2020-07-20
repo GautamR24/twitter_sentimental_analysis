@@ -6,7 +6,8 @@ In this project we are predicting the sentiments of the tweet based on the words
 3. nltk
 4. textblob
 5. re
-
+## Dataset
+you can download the dataset from [here](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech )
 ## Code
 There are two files present `sentimental_analysis.py` and `preprocessing_tweets.py`. So while you are executing the `sentimental_analysis.py` you have to include `preprocessing_tweets.py` file also.
 ## About files
