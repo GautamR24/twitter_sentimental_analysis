@@ -6,11 +6,11 @@ In this project we are predicting the sentiments of the tweet based on the words
 3. nltk
 4. textblob
 5. re
-## Dataset
+## Dataset:
 you can download the dataset from [here](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech )
-## Code
+## Code:
 There are two files present `sentimental_analysis.py` and `preprocessing_tweets.py`. So while you are executing the `sentimental_analysis.py` you have to include `preprocessing_tweets.py` file also.
-## About files
+## Workflow of code:
 1. `sentimental_analysis.py` 
     * first importing the dataset
     * on observing the dataset we came to know the there are two main things `tweets` and `labels`
@@ -30,7 +30,7 @@ There are two files present `sentimental_analysis.py` and `preprocessing_tweets.
          * `no_stop_words()` will remove the words like is, are, have as these also don't tell about the sentiments.
          * `normalization()` will normalize same word present in different tense/ways to single word like enjoy, enjoying, enjoyed all mean the same, so , it will replaced with single word enjoy. 
          * A last the tweet is completely processed.
-## Methodology
+## Methodology:
 1. import the required libraries.
 2. import the datasets.
 3. extact the `label` and `tweets` columns.
@@ -41,7 +41,7 @@ There are two files present `sentimental_analysis.py` and `preprocessing_tweets.
 8. predict output for the test dataset using this `pipeline object`.
 9. At last print the accuracy.
 
-## Result
+## Result:
 Using Naive Bayes got the accuracy of  **93%**. 
 
 
